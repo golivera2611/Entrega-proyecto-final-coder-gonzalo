@@ -1,0 +1,32 @@
+.contenido-presupuestos h1 {
+    font-size: 95px;
+    font-family: "Poppins", sans-serif;
+    color: $colordefuente;
+    text-align: center;
+    padding: 40px;
+}
+
+.presupuesto {
+    color: $colordefuente;
+    font-size: 30px;
+    width: 600px;
+    height: 500px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin-left: 550px;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+}
+
+.imagen-presupuesto {
+    width: 600px;
+    height: 300px;
+    margin-left: -50px;
+    margin-top: 30px;
+    border-radius: 15%;
+}

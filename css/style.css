@@ -1,138 +1,102 @@
 @import url("https://fonts.googleapis.com/css2? family= Xanh+Mono:ital@1 & display=swap");
 @import url("https://fonts.googleapis.com/css2? family= Poppins:ital,wght@1,200 & display=swap");
-/**
-familia de fuentes: 'Xanh Mono', monoespaciado;
-familia tipográfica: 'Poppins', sans-serif;
-*/
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
+
 .contenedortotal {
   display: grid;
   min-height: 100%;
   grid-template-columns: 100%;
   grid-template-rows: 1fr 100% auto;
-  grid-template-areas: "header" "main" "footer";
-}
-.header {
-  grid-area: "header";
-}
-.navbar .navbar-nav .nav-link:hover {
-  background-color: rgba(252, 187, 21, 0.333);
-  color: white;
-}
+  grid-template-areas: "header" "main" "footer"; }
+
 .navbar {
-  padding: 0;
-}
-.navbar .navbar-nav .nav-link {
-  padding: 1em;
-  transition: all 0.5s;
-  font-size: 1.5em;
-}
+  padding: 0; }
+  .navbar .navbar-nav .nav-link {
+    padding: 1em;
+    transition: all 0.5s;
+    font-size: 1.5em; }
+    .navbar .navbar-nav .nav-link:hover {
+      background-color: rgba(252, 187, 21, 0.333);
+      color: white; }
+
 .navbar-brand {
   -webkit-animation: shake-lr 1.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-  animation: shake-lr 1.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-}
+  animation: shake-lr 1.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both; }
+
 @-webkit-keyframes shake-lr {
   0%,
   100% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
     -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-  }
+    transform-origin: 50% 50%; }
   10% {
     -webkit-transform: rotate(8deg);
-    transform: rotate(8deg);
-  }
+    transform: rotate(8deg); }
   20%,
   40%,
   60% {
     -webkit-transform: rotate(-10deg);
-    transform: rotate(-10deg);
-  }
+    transform: rotate(-10deg); }
   30%,
   50%,
   70% {
     -webkit-transform: rotate(10deg);
-    transform: rotate(10deg);
-  }
+    transform: rotate(10deg); }
   80% {
     -webkit-transform: rotate(-8deg);
-    transform: rotate(-8deg);
-  }
+    transform: rotate(-8deg); }
   90% {
     -webkit-transform: rotate(8deg);
-    transform: rotate(8deg);
-  }
-}
+    transform: rotate(8deg); } }
+
 @keyframes shake-lr {
   0%,
   100% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
     -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-  }
+    transform-origin: 50% 50%; }
   10% {
     -webkit-transform: rotate(8deg);
-    transform: rotate(8deg);
-  }
+    transform: rotate(8deg); }
   20%,
   40%,
   60% {
     -webkit-transform: rotate(-10deg);
-    transform: rotate(-10deg);
-  }
+    transform: rotate(-10deg); }
   30%,
   50%,
   70% {
     -webkit-transform: rotate(10deg);
-    transform: rotate(10deg);
-  }
+    transform: rotate(10deg); }
   80% {
     -webkit-transform: rotate(-8deg);
-    transform: rotate(-8deg);
-  }
+    transform: rotate(-8deg); }
   90% {
     -webkit-transform: rotate(8deg);
-    transform: rotate(8deg);
-  }
-}
+    transform: rotate(8deg); } }
 
 .main {
   grid-area: "main";
-  background-image: linear-gradient(
-    to bottom,
-    #e9e7e3,
-    #ebe8d7,
-    #e8eacc,
-    #e0eec4,
-    #d2f2bf,
-    #d2f4c1,
-    #d1f5c4,
-    #d1f7c6,
-    #e0f7ce,
-    #ecf7d8,
-    #f4f8e4,
-    #f9f9f2
-  );
+  background-image: linear-gradient(to bottom, #e9e7e3, #ebe8d7, #e8eacc, #e0eec4, #d2f2bf, #d2f4c1, #d1f5c4, #d1f7c6, #e0f7ce, #ecf7d8, #f4f8e4, #f9f9f2);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   min-height: 100%;
-  display: block;
-}
+  display: block; }
+
 .h1-index {
   font-family: "Xanh Mono", monospace;
   font-size: 80px;
-  color: #557153ba;
+  color: #557153bf;
   text-align: center;
-  margin-top: 50px;
-}
+  margin-top: 50px; }
+
 .index-p {
   font-family: "Poppins", sans-serif;
   font-size: 50px;
@@ -142,25 +106,25 @@ familia tipográfica: 'Poppins', sans-serif;
   width: 600px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
+
 .video-pizza {
   height: 600px;
   width: 800px;
-  margin-left: 380px;
-}
+  margin-left: 380px; }
+
 .caja-contenido-empresa {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
+  align-items: center; }
+
 .h1-empresa {
   font-family: "Xanh Mono", monospace;
   font-size: 80px;
-  color: #557153ba;
+  color: #557153bf;
   text-align: center;
-  margin-top: 50px;
-}
+  margin-top: 50px; }
+
 .p-empresa {
   font-family: "Poppins", sans-serif;
   font-size: 25px;
@@ -170,58 +134,51 @@ familia tipográfica: 'Poppins', sans-serif;
   width: 800px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
+
 .imagen-empresa {
   width: 550px;
   height: 380px;
-
   border-radius: 15%;
   -webkit-animation: kenburns-left 5s ease-out both;
-  animation: kenburns-left 5s ease-out both;
-}
+  animation: kenburns-left 5s ease-out both; }
+
 @-webkit-keyframes kenburns-left {
   0% {
     -webkit-transform: scale(1) translate(0, 0);
     transform: scale(1) translate(0, 0);
     -webkit-transform-origin: 16% 50%;
-    transform-origin: 16% 50%;
-  }
+    transform-origin: 16% 50%; }
   100% {
     -webkit-transform: scale(1.25) translate(-20px, 15px);
     transform: scale(1.25) translate(-20px, 15px);
     -webkit-transform-origin: left;
-    transform-origin: left;
-  }
-}
+    transform-origin: left; } }
+
 @keyframes kenburns-left {
   0% {
     -webkit-transform: scale(1) translate(0, 0);
     transform: scale(1) translate(0, 0);
     -webkit-transform-origin: 16% 50%;
-    transform-origin: 16% 50%;
-  }
+    transform-origin: 16% 50%; }
   100% {
     -webkit-transform: scale(1.25) translate(-20px, 15px);
     transform: scale(1.25) translate(-20px, 15px);
     -webkit-transform-origin: left;
-    transform-origin: left;
-  }
-}
+    transform-origin: left; } }
+
 .titulo-servicios {
   font-size: 80px;
   font-family: "Xanh Mono", monospace;
   color: #557153bf;
-  text-align: center;
-}
+  text-align: center; }
 
 .contenido-presupuestos h1 {
   font-size: 95px;
   font-family: "Poppins", sans-serif;
   color: #557153bf;
   text-align: center;
-  padding: 40px;
-}
+  padding: 40px; }
 
 .presupuesto {
   color: #557153bf;
@@ -230,46 +187,39 @@ familia tipográfica: 'Poppins', sans-serif;
   height: 500px;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  margin-left: 550px;
-}
+  margin-left: 550px; }
+  .presupuesto ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
 
-.presupuesto ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
 .imagen-presupuesto {
   width: 600px;
   height: 300px;
   margin-left: -50px;
   margin-top: 30px;
-  border-radius: 15%;
-}
+  border-radius: 15%; }
 
 .contacto {
   font-size: 90px;
   text-align: center;
   color: #557153bf;
-  font-family: "Xanh Mono", monospace;
-}
+  font-family: "Xanh Mono", monospace; }
 
 .formStyle {
   height: auto;
   width: 450px;
   margin-left: 600px;
-  margin-top: 30px;
-}
+  margin-top: 30px; }
 
 .formulario {
   font-size: 40px;
   color: #557153bf;
-  font-family: "Dancing Script";
-}
-.formulario input {
-  text-align: center;
-  font-size: 20px;
-}
+  font-family: "Dancing Script"; }
+  .formulario input {
+    text-align: center;
+    font-size: 20px; }
 
 .footer {
   grid-area: "footer";
@@ -278,28 +228,22 @@ familia tipográfica: 'Poppins', sans-serif;
   background-image: url(../assets/herby-line-up.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
-}
+  background-position: bottom; }
+
 .footer-container {
   width: 500px;
   height: 80px;
   position: relative;
   left: 40%;
-  top: 25%;
-}
+  top: 25%; }
 
-.instagram-img,
-.facebook-img {
+.instagram-img, .facebook-img {
   width: 50px;
-  height: 50px;
-}
+  height: 50px; }
 
 .mercadolibre-img {
   width: 140px;
-  height: 50px;
-}
-
-/** TAMAÑO DESKTOP */
+  height: 50px; }
 
 @media (max-width: 1200px) {
   .contenedortotal {
@@ -307,39 +251,22 @@ familia tipográfica: 'Poppins', sans-serif;
     min-height: 100%;
     grid-template-columns: 100%;
     grid-template-rows: 1fr 100% auto;
-    grid-template-areas: "header" "main" "footer";
-  }
+    grid-template-areas: "header" "main" "footer"; }
   .main {
     grid-area: "main";
-    background-image: linear-gradient(
-      to bottom,
-      #e9e7e3,
-      #ebe8d7,
-      #e8eacc,
-      #e0eec4,
-      #d2f2bf,
-      #d2f4c1,
-      #d1f5c4,
-      #d1f7c6,
-      #e0f7ce,
-      #ecf7d8,
-      #f4f8e4,
-      #f9f9f2
-    );
+    background-image: linear-gradient(to bottom, #e9e7e3, #ebe8d7, #e8eacc, #e0eec4, #d2f2bf, #d2f4c1, #d1f5c4, #d1f7c6, #e0f7ce, #ecf7d8, #f4f8e4, #f9f9f2);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     min-height: 100%;
-    display: block;
-  }
+    display: block; }
   .h1-index {
     font-family: "Xanh Mono", monospace;
     font-size: 70px;
-    color: #557153ba;
+    color: #557153bf;
     text-align: center;
-    margin-top: 50px;
-  }
+    margin-top: 50px; }
   .index-p {
     font-family: "Poppins", sans-serif;
     font-size: 40px;
@@ -349,25 +276,21 @@ familia tipográfica: 'Poppins', sans-serif;
     width: 500px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
-  }
+    margin-bottom: 20px; }
   .video-pizza {
     height: 500px;
     width: 700px;
-    margin-left: 250px;
-  }
+    margin-left: 250px; }
   .caja-contenido-empresa {
     display: flex;
     flex-direction: column;
-    align-items: center;
-  }
+    align-items: center; }
   .h1-empresa {
     font-family: "Xanh Mono", monospace;
     font-size: 70px;
-    color: #557153ba;
+    color: #557153bf;
     text-align: center;
-    margin-top: 60px;
-  }
+    margin-top: 60px; }
   .p-empresa {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
@@ -377,58 +300,46 @@ familia tipográfica: 'Poppins', sans-serif;
     width: 500px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
-  }
+    margin-bottom: 10px; }
   .imagen-empresa {
     width: 450px;
     height: 280px;
-  
     border-radius: 15%;
     -webkit-animation: kenburns-left 5s ease-out both;
-    animation: kenburns-left 5s ease-out both;
-  }
+    animation: kenburns-left 5s ease-out both; }
   @-webkit-keyframes kenburns-left {
     0% {
       -webkit-transform: scale(1) translate(0, 0);
       transform: scale(1) translate(0, 0);
       -webkit-transform-origin: 16% 50%;
-      transform-origin: 16% 50%;
-    }
+      transform-origin: 16% 50%; }
     100% {
       -webkit-transform: scale(1.25) translate(-20px, 15px);
       transform: scale(1.25) translate(-20px, 15px);
       -webkit-transform-origin: left;
-      transform-origin: left;
-    }
-  }
+      transform-origin: left; } }
   @keyframes kenburns-left {
     0% {
       -webkit-transform: scale(1) translate(0, 0);
       transform: scale(1) translate(0, 0);
       -webkit-transform-origin: 16% 50%;
-      transform-origin: 16% 50%;
-    }
+      transform-origin: 16% 50%; }
     100% {
       -webkit-transform: scale(1.25) translate(-20px, 15px);
       transform: scale(1.25) translate(-20px, 15px);
       -webkit-transform-origin: left;
-      transform-origin: left;
-    }
-  }
+      transform-origin: left; } }
   .titulo-servicios {
     font-size: 70px;
     font-family: "Xanh Mono", monospace;
     color: #557153bf;
-    text-align: center;
-  }
+    text-align: center; }
   .contenido-presupuestos h1 {
     font-size: 85px;
     font-family: "Poppins", sans-serif;
     color: #557153bf;
     text-align: center;
-    padding: 40px;
-  }
-  
+    padding: 40px; }
   .presupuesto {
     color: #557153bf;
     font-size: 30px;
@@ -436,45 +347,35 @@ familia tipográfica: 'Poppins', sans-serif;
     height: 500px;
     font-family: "Poppins", sans-serif;
     text-align: center;
-    margin-left: 300px;
-  }
-  
-  .presupuesto ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
+    margin-left: 300px; }
+    .presupuesto ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center; }
   .imagen-presupuesto {
     width: 600px;
     height: 300px;
     margin-left: -50px;
     margin-top: 30px;
-    border-radius: 15%;
-  }
+    border-radius: 15%; }
   .contacto {
     font-size: 70px;
     text-align: center;
     color: #557153bf;
-    font-family: "Xanh Mono", monospace;
-  }
-  
+    font-family: "Xanh Mono", monospace; }
   .formStyle {
     height: auto;
     width: 450px;
     margin-left: 450px;
-    margin-top: 30px;
-  }
-  
+    margin-top: 30px; }
   .formulario {
     font-size: 40px;
     color: #557153bf;
-    font-family: "Dancing Script";
-  }
-  .formulario input {
-    text-align: center;
-    font-size: 20px;
-  }
+    font-family: "Dancing Script"; }
+    .formulario input {
+      text-align: center;
+      font-size: 20px; }
   .footer {
     grid-area: "footer";
     width: 100%;
@@ -482,67 +383,42 @@ familia tipográfica: 'Poppins', sans-serif;
     background-image: url(../assets/herby-line-up.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
-  }
+    background-position: bottom; }
   .footer-container {
     width: 500px;
     height: 80px;
     position: relative;
     left: 40%;
-    top: 25%;
-  }
-  
-  .instagram-img,
-  .facebook-img {
+    top: 25%; }
+  .instagram-img, .facebook-img {
     width: 40px;
-    height: 40px;
-  }
-  
+    height: 40px; }
   .mercadolibre-img {
     width: 130px;
-    height: 40px;
-  }
-}
-/** TAMAÑO TABLET*/
-@media (max-width: 768px){
+    height: 40px; } }
+
+@media (max-width: 768px) {
   .contenedortotal {
     display: grid;
     min-height: 100%;
     grid-template-columns: 100%;
     grid-template-rows: 1fr 100% auto;
-    grid-template-areas: "header" "main" "footer";
-  }
+    grid-template-areas: "header" "main" "footer"; }
   .main {
     grid-area: "main";
-    background-image: linear-gradient(
-      to bottom,
-      #e9e7e3,
-      #ebe8d7,
-      #e8eacc,
-      #e0eec4,
-      #d2f2bf,
-      #d2f4c1,
-      #d1f5c4,
-      #d1f7c6,
-      #e0f7ce,
-      #ecf7d8,
-      #f4f8e4,
-      #f9f9f2
-    );
+    background-image: linear-gradient(to bottom, #e9e7e3, #ebe8d7, #e8eacc, #e0eec4, #d2f2bf, #d2f4c1, #d1f5c4, #d1f7c6, #e0f7ce, #ecf7d8, #f4f8e4, #f9f9f2);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     min-height: 100%;
-    display: block;
-  }
+    display: block; }
   .h1-index {
     font-family: "Xanh Mono", monospace;
     font-size: 60px;
-    color: #557153ba;
+    color: #557153bf;
     text-align: center;
-    margin-top: 50px;
-  }
+    margin-top: 50px; }
   .index-p {
     font-family: "Poppins", sans-serif;
     font-size: 40px;
@@ -553,25 +429,21 @@ familia tipográfica: 'Poppins', sans-serif;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-    margin-top: 20PX;
-  }
+    margin-top: 20PX; }
   .video-pizza {
     height: 400px;
     width: 500px;
-    margin-left: 120px;
-  }
+    margin-left: 120px; }
   .caja-contenido-empresa {
     display: flex;
     flex-direction: column;
-    align-items: center;
-  }
+    align-items: center; }
   .h1-empresa {
     font-family: "Xanh Mono", monospace;
     font-size: 60px;
-    color: #557153ba;
+    color: #557153bf;
     text-align: center;
-    margin-top: 60px;
-  }
+    margin-top: 60px; }
   .p-empresa {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
@@ -581,58 +453,46 @@ familia tipográfica: 'Poppins', sans-serif;
     width: 500px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
-  }
+    margin-bottom: 10px; }
   .imagen-empresa {
     width: 450px;
     height: 280px;
-  
     border-radius: 15%;
     -webkit-animation: kenburns-left 5s ease-out both;
-    animation: kenburns-left 5s ease-out both;
-  }
+    animation: kenburns-left 5s ease-out both; }
   @-webkit-keyframes kenburns-left {
     0% {
       -webkit-transform: scale(1) translate(0, 0);
       transform: scale(1) translate(0, 0);
       -webkit-transform-origin: 16% 50%;
-      transform-origin: 16% 50%;
-    }
+      transform-origin: 16% 50%; }
     100% {
       -webkit-transform: scale(1.25) translate(-20px, 15px);
       transform: scale(1.25) translate(-20px, 15px);
       -webkit-transform-origin: left;
-      transform-origin: left;
-    }
-  }
+      transform-origin: left; } }
   @keyframes kenburns-left {
     0% {
       -webkit-transform: scale(1) translate(0, 0);
       transform: scale(1) translate(0, 0);
       -webkit-transform-origin: 16% 50%;
-      transform-origin: 16% 50%;
-    }
+      transform-origin: 16% 50%; }
     100% {
       -webkit-transform: scale(1.25) translate(-20px, 15px);
       transform: scale(1.25) translate(-20px, 15px);
       -webkit-transform-origin: left;
-      transform-origin: left;
-    }
-  }
+      transform-origin: left; } }
   .titulo-servicios {
     font-size: 60px;
     font-family: "Xanh Mono", monospace;
     color: #557153bf;
-    text-align: center;
-  }
+    text-align: center; }
   .contenido-presupuestos h1 {
     font-size: 75px;
     font-family: "Poppins", sans-serif;
     color: #557153bf;
     text-align: center;
-    padding: 40px;
-  }
-  
+    padding: 40px; }
   .presupuesto {
     color: #557153bf;
     font-size: 30px;
@@ -640,45 +500,35 @@ familia tipográfica: 'Poppins', sans-serif;
     height: 500px;
     font-family: "Poppins", sans-serif;
     text-align: center;
-    margin-left: 300px;
-  }
-  
-  .presupuesto ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
+    margin-left: 300px; }
+    .presupuesto ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center; }
   .imagen-presupuesto {
     width: 600px;
     height: 300px;
     margin-left: -50px;
     margin-top: 30px;
-    border-radius: 15%;
-  }
+    border-radius: 15%; }
   .contacto {
     font-size: 60px;
     text-align: center;
     color: #557153bf;
-    font-family: "Xanh Mono", monospace;
-  }
-  
+    font-family: "Xanh Mono", monospace; }
   .formStyle {
     height: auto;
     width: 450px;
     margin-left: 250px;
-    margin-top: 30px;
-  }
-  
+    margin-top: 30px; }
   .formulario {
     font-size: 30px;
     color: #557153bf;
-    font-family: "Dancing Script";
-  }
-  .formulario input {
-    text-align: center;
-    font-size: 20px;
-  }
+    font-family: "Dancing Script"; }
+    .formulario input {
+      text-align: center;
+      font-size: 20px; }
   .footer {
     grid-area: "footer";
     width: 100%;
@@ -686,68 +536,42 @@ familia tipográfica: 'Poppins', sans-serif;
     background-image: url(../assets/herby-line-up.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
-  }
+    background-position: bottom; }
   .footer-container {
     width: 500px;
     height: 80px;
     position: relative;
     left: 40%;
-    top: 25%;
-  }
-  
-  .instagram-img,
-  .facebook-img {
+    top: 25%; }
+  .instagram-img, .facebook-img {
     width: 40px;
-    height: 40px;
-  }
-  
+    height: 40px; }
   .mercadolibre-img {
     width: 130px;
-    height: 40px;
-  }
-}
+    height: 40px; } }
 
-/** TAMAÑO CEL*/
-@media (max-width: 576px){
+@media (max-width: 576px) {
   .contenedortotal {
     display: grid;
     min-height: 100%;
     grid-template-columns: 100%;
     grid-template-rows: 1fr 100% auto;
-    grid-template-areas: "header" "main" "footer";
-  }
+    grid-template-areas: "header" "main" "footer"; }
   .main {
     grid-area: "main";
-    background-image: linear-gradient(
-      to bottom,
-      #e9e7e3,
-      #ebe8d7,
-      #e8eacc,
-      #e0eec4,
-      #d2f2bf,
-      #d2f4c1,
-      #d1f5c4,
-      #d1f7c6,
-      #e0f7ce,
-      #ecf7d8,
-      #f4f8e4,
-      #f9f9f2
-    );
+    background-image: linear-gradient(to bottom, #e9e7e3, #ebe8d7, #e8eacc, #e0eec4, #d2f2bf, #d2f4c1, #d1f5c4, #d1f7c6, #e0f7ce, #ecf7d8, #f4f8e4, #f9f9f2);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     min-height: 100%;
-    display: block;
-  }
+    display: block; }
   .h1-index {
     font-family: "Xanh Mono", monospace;
     font-size: 50px;
-    color: #557153ba;
+    color: #557153bf;
     text-align: center;
-    margin-top: 50px;
-  }
+    margin-top: 50px; }
   .index-p {
     font-family: "Poppins", sans-serif;
     font-size: 30px;
@@ -757,25 +581,21 @@ familia tipográfica: 'Poppins', sans-serif;
     width: 500px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
-  }
+    margin-bottom: 20px; }
   .video-pizza {
     height: 400px;
     width: 400px;
-    margin-left: 100px;
-  }
+    margin-left: 100px; }
   .caja-contenido-empresa {
     display: flex;
     flex-direction: column;
-    align-items: center;
-  }
+    align-items: center; }
   .h1-empresa {
     font-family: "Xanh Mono", monospace;
     font-size: 50px;
-    color: #557153ba;
+    color: #557153bf;
     text-align: center;
-    margin-top: 60px;
-  }
+    margin-top: 60px; }
   .p-empresa {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
@@ -785,58 +605,46 @@ familia tipográfica: 'Poppins', sans-serif;
     width: 500px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
-  }
+    margin-bottom: 10px; }
   .imagen-empresa {
     width: 350px;
     height: 180px;
-  
     border-radius: 15%;
     -webkit-animation: kenburns-left 5s ease-out both;
-    animation: kenburns-left 5s ease-out both;
-  }
+    animation: kenburns-left 5s ease-out both; }
   @-webkit-keyframes kenburns-left {
     0% {
       -webkit-transform: scale(1) translate(0, 0);
       transform: scale(1) translate(0, 0);
       -webkit-transform-origin: 16% 50%;
-      transform-origin: 16% 50%;
-    }
+      transform-origin: 16% 50%; }
     100% {
       -webkit-transform: scale(1.25) translate(-20px, 15px);
       transform: scale(1.25) translate(-20px, 15px);
       -webkit-transform-origin: left;
-      transform-origin: left;
-    }
-  }
+      transform-origin: left; } }
   @keyframes kenburns-left {
     0% {
       -webkit-transform: scale(1) translate(0, 0);
       transform: scale(1) translate(0, 0);
       -webkit-transform-origin: 16% 50%;
-      transform-origin: 16% 50%;
-    }
+      transform-origin: 16% 50%; }
     100% {
       -webkit-transform: scale(1.25) translate(-20px, 15px);
       transform: scale(1.25) translate(-20px, 15px);
       -webkit-transform-origin: left;
-      transform-origin: left;
-    }
-  }
+      transform-origin: left; } }
   .titulo-servicios {
     font-size: 50px;
     font-family: "Xanh Mono", monospace;
     color: #557153bf;
-    text-align: center;
-  }
+    text-align: center; }
   .contenido-presupuestos h1 {
     font-size: 50px;
     font-family: "Poppins", sans-serif;
     color: #557153bf;
     text-align: center;
-    padding: 40px;
-  }
-  
+    padding: 40px; }
   .presupuesto {
     color: #557153bf;
     font-size: 20px;
@@ -844,45 +652,35 @@ familia tipográfica: 'Poppins', sans-serif;
     height: 500px;
     font-family: "Poppins", sans-serif;
     text-align: center;
-    margin-left: -3px;
-  }
-  
-  .presupuesto ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
+    margin-left: -3px; }
+    .presupuesto ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center; }
   .imagen-presupuesto {
     width: 400px;
     height: 350px;
     margin-left: -20px;
     margin-top: 100px;
-    border-radius: 15%;
-  }
+    border-radius: 15%; }
   .contacto {
     font-size: 50px;
     text-align: center;
     color: #557153bf;
-    font-family: "Xanh Mono", monospace;
-  }
-  
+    font-family: "Xanh Mono", monospace; }
   .formStyle {
     height: auto;
     width: 450px;
     margin-left: 150px;
-    margin-top: 100px;
-  }
-  
+    margin-top: 100px; }
   .formulario {
     font-size: 30px;
     color: #557153bf;
-    font-family: "Dancing Script";
-  }
-  .formulario input {
-    text-align: center;
-    font-size: 20px;
-  }
+    font-family: "Dancing Script"; }
+    .formulario input {
+      text-align: center;
+      font-size: 20px; }
   .footer {
     grid-area: "footer";
     width: 100%;
@@ -890,24 +688,16 @@ familia tipográfica: 'Poppins', sans-serif;
     background-image: url(../assets/herby-line-up.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
-  }
+    background-position: bottom; }
   .footer-container {
     width: 500px;
     height: 80px;
     position: relative;
     left: 40%;
-    top: 25%;
-  }
-  
-  .instagram-img,
-  .facebook-img {
+    top: 25%; }
+  .instagram-img, .facebook-img {
     width: 40px;
-    height: 40px;
-  }
-  
+    height: 40px; }
   .mercadolibre-img {
     width: 130px;
-    height: 40px;
-  }
-}
+    height: 40px; } }

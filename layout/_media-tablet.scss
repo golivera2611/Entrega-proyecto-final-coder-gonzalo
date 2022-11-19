@@ -1,0 +1,206 @@
+@media (max-width: 768px) {
+    .contenedortotal {
+      display: grid;
+      min-height: 100%;
+      grid-template-columns: 100%;
+      grid-template-rows: 1fr 100% auto;
+      grid-template-areas: "header" "main" "footer";
+    }
+  
+    .main {
+      grid-area: "main";
+      background-image: linear-gradient(to bottom, #e9e7e3, #ebe8d7, #e8eacc, #e0eec4, #d2f2bf, #d2f4c1, #d1f5c4, #d1f7c6, #e0f7ce, #ecf7d8, #f4f8e4, #f9f9f2);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      min-height: 100%;
+      display: block;
+    }
+  
+    .h1-index {
+      font-family: "Xanh Mono", monospace;
+      font-size: 60px;
+      color: $colordefuente;
+      text-align: center;
+      margin-top: 50px;
+    }
+  
+    .index-p {
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      color: $colordefuente;
+      text-align: center;
+      height: 500px;
+      width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+      margin-top: 20PX;
+    }
+  
+    .video-pizza {
+      height: 400px;
+      width: 500px;
+      margin-left: 120px;
+    }
+  
+    .caja-contenido-empresa {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .h1-empresa {
+      font-family: "Xanh Mono", monospace;
+      font-size: 60px;
+      color: $colordefuente;
+      text-align: center;
+      margin-top: 60px;
+    }
+  
+    .p-empresa {
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      color: $colordefuente;
+      text-align: center;
+      height: 500px;
+      width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+    }
+  
+    .imagen-empresa {
+      width: 450px;
+      height: 280px;
+      border-radius: 15%;
+      -webkit-animation: kenburns-left 5s ease-out both;
+      animation: kenburns-left 5s ease-out both;
+    }
+  
+    @-webkit-keyframes kenburns-left {
+      0% {
+        -webkit-transform: scale(1) translate(0, 0);
+        transform: scale(1) translate(0, 0);
+        -webkit-transform-origin: 16% 50%;
+        transform-origin: 16% 50%;
+      }
+  
+      100% {
+        -webkit-transform: scale(1.25) translate(-20px, 15px);
+        transform: scale(1.25) translate(-20px, 15px);
+        -webkit-transform-origin: left;
+        transform-origin: left;
+      }
+    }
+  
+    @keyframes kenburns-left {
+      0% {
+        -webkit-transform: scale(1) translate(0, 0);
+        transform: scale(1) translate(0, 0);
+        -webkit-transform-origin: 16% 50%;
+        transform-origin: 16% 50%;
+      }
+  
+      100% {
+        -webkit-transform: scale(1.25) translate(-20px, 15px);
+        transform: scale(1.25) translate(-20px, 15px);
+        -webkit-transform-origin: left;
+        transform-origin: left;
+      }
+    }
+  
+    .titulo-servicios {
+      font-size: 60px;
+      font-family: "Xanh Mono", monospace;
+      color: $colordefuente;
+      text-align: center;
+    }
+  
+    .contenido-presupuestos h1 {
+      font-size: 75px;
+      font-family: "Poppins", sans-serif;
+      color: $colordefuente;
+      text-align: center;
+      padding: 40px;
+    }
+  
+    .presupuesto {
+      color: $colordefuente;
+      font-size: 30px;
+      width: 600px;
+      height: 500px;
+      font-family: "Poppins", sans-serif;
+      text-align: center;
+      margin-left: 300px;
+  
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+    }
+  
+    .imagen-presupuesto {
+      width: 600px;
+      height: 300px;
+      margin-left: -50px;
+      margin-top: 30px;
+      border-radius: 15%;
+    }
+  
+    .contacto {
+      font-size: 60px;
+      text-align: center;
+      color: $colordefuente;
+      font-family: "Xanh Mono", monospace;
+    }
+  
+    .formStyle {
+      height: auto;
+      width: 450px;
+      margin-left: 250px;
+      margin-top: 30px;
+    }
+  
+    .formulario {
+      font-size: 30px;
+      color: $colordefuente;
+      font-family: "Dancing Script";
+  
+      input {
+        text-align: center;
+        font-size: 20px;
+      }
+    }
+  
+    .footer {
+      grid-area: "footer";
+      width: 100%;
+      height: 100px;
+      background-image: url(../assets/herby-line-up.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: bottom;
+    }
+  
+    .footer-container {
+      width: 500px;
+      height: 80px;
+      position: relative;
+      left: 40%;
+      top: 25%;
+    }
+  
+    .instagram-img, .facebook-img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .mercadolibre-img {
+      width: 130px;
+      height: 40px;
+    }
+  }
