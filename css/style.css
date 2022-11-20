@@ -8,6 +8,7 @@
 .contenedortotal {
   display: grid;
   min-height: 100%;
+  max-width: 100%;
   grid-template-columns: 100%;
   grid-template-rows: 1fr 100% auto;
   grid-template-areas: "header" "main" "footer"; }
@@ -201,6 +202,15 @@
   margin-top: 30px;
   border-radius: 15%; }
 
+.contenedortotal {
+  display: grid;
+  min-height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 100% auto;
+  grid-template-areas: "header" "main" "footer"; }
+
 .contacto {
   font-size: 90px;
   text-align: center;
@@ -250,6 +260,7 @@
     display: grid;
     min-height: 100%;
     max-width: 100%;
+    overflow-x: hidden;
     grid-template-columns: 100%;
     grid-template-rows: 1fr 100% auto;
     grid-template-areas: "header" "main" "footer"; }
@@ -403,6 +414,7 @@
     display: grid;
     min-height: 100%;
     max-width: 100%;
+    overflow-x: hidden;
     grid-template-columns: 100%;
     grid-template-rows: 1fr 100% auto;
     grid-template-areas: "header" "main" "footer"; }
@@ -557,6 +569,7 @@
     display: grid;
     min-height: 100%;
     max-width: 100%;
+    overflow-x: hidden;
     grid-template-columns: 100%;
     grid-template-rows: 1fr 100% auto;
     grid-template-areas: "header" "main" "footer"; }
@@ -710,6 +723,7 @@
     display: grid;
     min-height: 100%;
     max-width: 100%;
+    overflow-x: hidden;
     grid-template-columns: 100%;
     grid-template-rows: 1fr 100% auto;
     grid-template-areas: "header" "main" "footer"; }

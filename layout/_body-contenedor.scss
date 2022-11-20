@@ -2,7 +2,6 @@
     display: grid;
     min-height: 100%;
     max-width: 100%;
-    overflow-x: hidden;
     grid-template-columns: 100%;
     grid-template-rows: 1fr 100% auto;
     grid-template-areas: "header" "main" "footer";
