@@ -705,7 +705,7 @@
     width: 130px;
     height: 40px; } }
 
-@media (max-width: 576px) {
+@media (max-width: 425px) {
   .contenedortotal {
     display: grid;
     min-height: 100%;
