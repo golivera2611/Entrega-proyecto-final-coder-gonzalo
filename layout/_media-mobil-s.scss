@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .contenedortotal {
       display: grid;
       min-height: 100%;
@@ -21,29 +21,28 @@
   
     .h1-index {
       font-family: "Xanh Mono", monospace;
-      font-size: 60px;
+      font-size: 30px;
       color: $colordefuente;
       text-align: center;
-      margin-top: 50px;
+      margin-top: 40px;
     }
   
     .index-p {
       font-family: "Poppins", sans-serif;
-      font-size: 40px;
+      font-size: 25px;
       color: $colordefuente;
       text-align: center;
-      height: 500px;
-      width: 500px;
+      height: 300px;
+      width: 300px;
       margin-left: auto;
       margin-right: auto;
-      margin-bottom: 30px;
-      margin-top: 20PX;
+      margin-bottom: 20px;
     }
   
     .video-pizza {
       height: 400px;
-      width: 500px;
-      margin-left: 120px;
+      width: 300px;
+      margin-left: 70px;
     }
   
     .caja-contenido-empresa {
@@ -54,7 +53,7 @@
   
     .h1-empresa {
       font-family: "Xanh Mono", monospace;
-      font-size: 60px;
+      font-size: 30px;
       color: $colordefuente;
       text-align: center;
       margin-top: 60px;
@@ -65,16 +64,16 @@
       font-size: 20px;
       color: $colordefuente;
       text-align: center;
-      height: 500px;
-      width: 500px;
+      height: 600px;
+      width: 400px;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 10px;
     }
   
     .imagen-empresa {
-      width: 450px;
-      height: 280px;
+      width: 250px;
+      height: 180px;
       border-radius: 15%;
       -webkit-animation: kenburns-left 5s ease-out both;
       animation: kenburns-left 5s ease-out both;
@@ -113,14 +112,14 @@
     }
   
     .titulo-servicios {
-      font-size: 60px;
+      font-size: 40px;
       font-family: "Xanh Mono", monospace;
       color: $colordefuente;
       text-align: center;
     }
   
     .contenido-presupuestos h1 {
-      font-size: 75px;
+      font-size: 40px;
       font-family: "Poppins", sans-serif;
       color: $colordefuente;
       text-align: center;
@@ -129,12 +128,12 @@
   
     .presupuesto {
       color: $colordefuente;
-      font-size: 30px;
-      width: 600px;
+      font-size: 20px;
+      width: 450px;
       height: 500px;
       font-family: "Poppins", sans-serif;
       text-align: center;
-      margin-left: 80px;
+      margin-left: -3px;
   
       ul {
         list-style-type: none;
@@ -145,15 +144,15 @@
     }
   
     .imagen-presupuesto {
-      width: 600px;
-      height: 300px;
+      width: 300px;
+      height: 350px;
       margin-left: -20px;
-      margin-top: 30px;
+      margin-top: 100px;
       border-radius: 15%;
     }
   
     .contacto {
-      font-size: 60px;
+      font-size: 40px;
       text-align: center;
       color: $colordefuente;
       font-family: "Xanh Mono", monospace;
@@ -162,8 +161,8 @@
     .formStyle {
       height: auto;
       width: 450px;
-      margin-left: 250px;
-      margin-top: 30px;
+      margin-left: 30px;
+      margin-top: 100px;
     }
   
     .formulario {
@@ -191,8 +190,8 @@
       width: 500px;
       height: 80px;
       position: relative;
-      left: 40%;
-      top: 25%;
+      left: 30%;
+      top: 30%;
     }
   
     .instagram-img, .facebook-img {
